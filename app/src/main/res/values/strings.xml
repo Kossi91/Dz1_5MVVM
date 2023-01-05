@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dz1_5MVVM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="имя">Имя</string>
+    <string name="возраст">Возраст</string>
+    <string name="мейл">Email</string>
+    <string name="пароль">Пароль</string>
+    <string name="signUp">Регистрация</string>
+    <string name="go">Начать</string>
+    <string name="info">Информация</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Изменить</string>
+    <string name="сhange">Редактировать</string>
+</resources>

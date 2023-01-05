@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="25dp"
+    android:background="@drawable/img"
+    tools:context=".ui.fragments.signup.SignUpFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="@string/сhange"
+        android:textColor="#B1B1B1"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_custom"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="15dp"
+        android:hint="@string/имя"
+        android:paddingHorizontal="15dp"
+        android:textColor="#B1B1B1"
+        android:textColorHint="#B1B1B1" />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_custom"
+        android:drawableStart="@drawable/ic_baseline_assist_walker_24"
+        android:drawablePadding="15dp"
+        android:hint="@string/возраст"
+        android:paddingHorizontal="15dp"
+        android:textColor="#B1B1B1"
+        android:textColorHint="#B1B1B1" />
+
+    <EditText
+        android:id="@+id/et_mail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/et_custom"
+        android:drawableStart="@drawable/ic_baseline_alternate_email_24"
+        android:drawablePadding="15dp"
+        android:hint="@string/мейл"
+        android:paddingHorizontal="15dp"
+        android:textColor="#B1B1B1"
+        android:textColorHint="#B1B1B1" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="15dp"
+        android:inputType="textPassword"
+        android:background="@drawable/et_custom"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="15dp"
+        android:hint="@string/пароль"
+        android:paddingHorizontal="15dp"
+        android:textColor="#B1B1B1"
+        android:textColorHint="#B1B1B1" />
+
+    <Button
+        android:id="@+id/btm_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#B1B1B1"
+        android:text="@string/edit" />
+</LinearLayout>
